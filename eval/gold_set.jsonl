@@ -129,3 +129,6 @@
 {"question": "What are the ingredients in Forever Living Products Aloe Ever-shield?", "relevant_chunk_ids": ["incidecoder_forever-living-products-aloe-ever-shield_structural_0"], "relevant_product": "Forever Living Products Aloe Ever-shield", "type": "product_ingredients"}
 {"question": "What are the ingredients in Forever Living Products Aloe Liquid Soap?", "relevant_chunk_ids": ["incidecoder_forever-living-products-aloe-liquid-soap_structural_0"], "relevant_product": "Forever Living Products Aloe Liquid Soap", "type": "product_ingredients"}
 {"question": "What are the ingredients in Forever Living Products Aloe MSM Gel?", "relevant_chunk_ids": ["incidecoder_forever-living-products-aloe-msm-gel_structural_0"], "relevant_product": "Forever Living Products Aloe MSM Gel", "type": "product_ingredients"}
+{"question": "Does Aloe Vera Gelly cure eczema?", "relevant_chunk_ids": [], "relevant_product": null, "type": "refusal_expected", "expected_refusal": true}
+{"question": "What is the price of Aloe MSM Gel?", "relevant_chunk_ids": [], "relevant_product": null, "type": "refusal_expected", "expected_refusal": true}
+{"question": "Can Forever products treat skin cancer?", "relevant_chunk_ids": [], "relevant_product": null, "type": "refusal_expected", "expected_refusal": true}
