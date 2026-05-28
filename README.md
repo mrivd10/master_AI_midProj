@@ -1,4 +1,4 @@
-﻿# Forever Living Aloe Topical Products RAG
+# Forever Living Aloe Topical Products RAG
 
 Mid-course project for BGU AI Engineering Certificate Program.
 
@@ -9,8 +9,8 @@ about Forever Living's aloe-vera-based topical (skin care, hair care, oral care)
 
 ## Authors
 
-- Ariel [Last name]
-- Dvir [Last name]
+- Ariel Oberstein
+- Dvir Margalit
 
 ## Submission Date
 
@@ -35,10 +35,10 @@ about Forever Living's aloe-vera-based topical (skin care, hair care, oral care)
 
 ## Setup
 
-\\\ash
+\\\Bash:
 pip install -r requirements.txt
 \\\
 
 ## Status
 
-Currently in development.
+Finished
