@@ -4,7 +4,7 @@ streamlit_app.py - Image-based product identification + RAG Q&A.
 Two modes:
   1. Simple mode  - the original 4-step flow (image -> identify -> question -> answer)
                     with filter-first retrieval scoped to the selected product.
-  2. Agent mode   - the LLM (Gemini 2.5-flash) decides which of four tools to call,
+  2. Agent mode   - the LLM (Gemini 2.5-flash) decides which of six tools to call,
                     in what order, until it has enough info to answer.
                     The trajectory is streamed live to the UI.
 
@@ -244,8 +244,9 @@ if mode == "Simple mode (direct RAG)":
 # ============================================================
 else:
     st.write(
-        "Ask any question — the agent decides which of four tools to call "
-        "(identify from image, retrieve product info, search PubMed, compare products) "
+        "Ask any question — the agent decides which of six tools to call "
+        "(identify from image, retrieve product info, search PubMed, compare products, "
+        "get product description, find a similar Forever product) "
         "and shows its reasoning step by step."
     )
 
